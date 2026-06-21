@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthHub | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <div class="logo-mark">H</div>
+      <div>
+        <h1>HealthHub</h1>
+        <p>Wellness made simple</p>
+      </div>
+    </div>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <nav id="navLinks" class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" id="loginBtn" class="btn-nav">Login</a>
+      <a href="#" id="logoutBtn" class="btn-nav hidden" onclick="logoutUser()">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="tag">Your modern health companion</span>
+        <h2>Book appointments, track wellness, and manage care in one place.</h2>
+        <p>
+          HealthHub is a clean, professional health platform designed to connect patients,
+          doctors, and wellness services through a simple digital experience.
+        </p>
+        <div class="hero-actions">
+          <a href="services.html" class="btn primary">Explore Services</a>
+          <a href="login.html" class="btn secondary">Login Now</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Today's Health Snapshot</h3>
+        <div class="stat"><span>Appointments</span><strong>12</strong></div>
+        <div class="stat"><span>Doctors Online</span><strong>8</strong></div>
+        <div class="stat"><span>Wellness Score</span><strong>96%</strong></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Why Choose HealthHub?</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Smart Booking</h4>
+          <p>Schedule consultations easily with a responsive and intuitive interface.</p>
+        </div>
+        <div class="card">
+          <h4>Digital Records</h4>
+          <p>Keep medical reports, prescriptions, and follow-ups organized securely.</p>
+        </div>
+        <div class="card">
+          <h4>Preventive Care</h4>
+          <p>Stay ahead with reminders, health tips, and wellness recommendations.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 HealthHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

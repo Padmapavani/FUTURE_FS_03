@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthHub | Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <div class="logo-mark">H</div>
+      <div>
+        <h1>HealthHub</h1>
+        <p>Wellness made simple</p>
+      </div>
+    </div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" id="loginBtn" class="btn-nav">Login</a>
+      <a href="#" id="logoutBtn" class="btn-nav hidden" onclick="logoutUser()">Logout</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="content-box">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card interactive-card" tabindex="0">
+          <h4>Teleconsultation</h4>
+          <p>Connect with doctors online from anywhere.</p>
+        </div>
+        <div class="card interactive-card" tabindex="0">
+          <h4>Health Reminders</h4>
+          <p>Get reminders for medicine, tests, and checkups.</p>
+        </div>
+        <div class="card interactive-card" tabindex="0">
+          <h4>Reports Storage</h4>
+          <p>Store prescriptions and reports in one place.</p>
+        </div>
+        <div class="card interactive-card" tabindex="0">
+          <h4>Fitness Tracking</h4>
+          <p>Monitor your health goals and daily activity.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

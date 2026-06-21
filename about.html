@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthHub | About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <div class="logo-mark">H</div>
+      <div>
+        <h1>HealthHub</h1>
+        <p>Wellness made simple</p>
+      </div>
+    </div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" id="loginBtn" class="btn-nav">Login</a>
+      <a href="#" id="logoutBtn" class="btn-nav hidden" onclick="logoutUser()">Logout</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="about-section">
+      <div class="about-text content-box">
+        <span class="tag">About HealthHub</span>
+        <h2>Designed for modern healthcare experiences</h2>
+        <p>
+          HealthHub is a digital health platform concept focused on simplifying appointments,
+          improving access to care, and helping users manage wellness in one elegant space.
+        </p>
+
+        <div class="about-points">
+          <div class="mini-card">
+            <h4>Patient First</h4>
+            <p>Easy access to care and records.</p>
+          </div>
+          <div class="mini-card">
+            <h4>Trusted Support</h4>
+            <p>Reliable and organized health services.</p>
+          </div>
+          <div class="mini-card">
+            <h4>Smart Wellness</h4>
+            <p>Track health with a modern touch.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual">
+        <img
+          src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80"
+          alt="Healthcare professional"
+        />
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
